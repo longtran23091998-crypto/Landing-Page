@@ -1,0 +1,208 @@
+# Bộ Prompt Hoàn Thành Bài Tập Refactor Div Soup bằng Semantic HTML
+
+## Bước 1: Phân tích cấu trúc trang
+
+Đóng vai Senior Front-end Developer.
+
+Đọc file index.html hiện tại và phân tích cấu trúc trang.
+
+Hãy xác định:
+
+* Đâu là Header?
+* Đâu là Navigation?
+* Đâu là Main Content?
+* Đâu là Hero Section?
+* Đâu là Services Section?
+* Đâu là Footer?
+
+Không sửa code ngay.
+
+Chỉ mô tả cấu trúc nội dung theo dạng cây (Structure Tree).
+
+---
+
+## Bước 2: Nhận diện Semantic HTML
+
+Đóng vai Mentor Front-end.
+
+Dựa trên file HTML hiện tại, hãy giải thích:
+
+* Khối nào nên dùng `<header>`
+* Khối nào nên dùng `<nav>`
+* Khối nào nên dùng `<main>`
+* Khối nào nên dùng `<section>`
+* Khối nào nên dùng `<article>`
+* Khối nào nên dùng `<footer>`
+* Khối nào nên dùng `<h1>`, `<h2>`, `<h3>`
+* Khối nào nên dùng `<p>`
+* Khối nào nên dùng `<a>`
+
+Giải thích lý do lựa chọn từng thẻ theo Semantic HTML.
+
+---
+
+## Bước 3: Lập Commit Strategy
+
+Đóng vai Tech Lead.
+
+Hãy chia việc refactor Semantic HTML thành nhiều commit nhỏ.
+
+Mỗi commit cần:
+
+* Có mục tiêu rõ ràng
+* Có phạm vi thay đổi nhỏ
+* Có commit message chuyên nghiệp
+
+Đề xuất chiến lược commit phù hợp.
+
+---
+
+## Bước 4: Refactor Header
+
+Đóng vai Code Reviewer.
+
+Hãy refactor:
+
+* `.header-area`
+* `.navigation`
+* `.nav-list`
+* `.nav-item`
+
+thành:
+
+* `<header>`
+* `<nav>`
+* `<ul>`
+* `<li>`
+* `<a>`
+
+Chỉ hiển thị phần code thay đổi.
+
+Commit message:
+
+```text
+refactor: semantic header and navigation
+```
+
+---
+
+## Bước 5: Refactor Main và Hero Section
+
+Đóng vai Front-end Mentor.
+
+Hãy refactor:
+
+* `.main-content`
+* `.hero-section`
+* `.hero-title`
+* `.hero-desc`
+* `.hero-button`
+
+thành Semantic HTML phù hợp.
+
+Giải thích tại sao:
+
+* dùng `<main>`
+* dùng `<section>`
+* dùng `<h1>`
+* dùng `<p>`
+* dùng `<a>`
+
+Commit message:
+
+```text
+refactor: semantic main and hero section
+```
+
+---
+
+## Bước 6: Refactor Services Section
+
+Đóng vai HTML Semantic Expert.
+
+Hãy refactor:
+
+* `.services-container`
+* `.section-title`
+* `.service-box`
+* `.service-name`
+* `.service-detail`
+
+thành:
+
+* `<section>`
+* `<h2>`
+* `<article>`
+* `<h3>`
+* `<p>`
+
+Giải thích lý do sử dụng từng thẻ.
+
+Commit message:
+
+```text
+refactor: semantic services section
+```
+
+---
+
+## Bước 7: Refactor Footer
+
+Đóng vai Senior Front-end Developer.
+
+Hãy refactor:
+
+* `.footer-area`
+* `.footer-info`
+* `.company-name`
+* `.company-address`
+* `.company-phone`
+
+thành:
+
+* `<footer>`
+* `<section>`
+* `<h2>`
+* `<address>`
+
+Giải thích tại sao nên dùng `<address>`.
+
+Commit message:
+
+```text
+refactor: semantic footer
+```
+
+---
+
+## Bước 8: Review Semantic HTML
+
+Đóng vai W3C Validator.
+
+Kiểm tra:
+
+* Semantic HTML đã hợp lý chưa?
+* Có thẻ nào dùng sai mục đích không?
+* Có thể cải thiện Accessibility không?
+* Có thể cải thiện SEO không?
+
+Đưa ra các đề xuất nâng cấp.
+
+---
+
+## Bước 9: Review Git Commit History
+
+Đóng vai Tech Lead.
+
+Kiểm tra lịch sử commit.
+
+Đánh giá:
+
+* Commit message có rõ ràng không?
+* Commit có quá lớn không?
+* Commit có đang tuân thủ nguyên tắc Atomic Commit không?
+
+Đưa ra nhận xét như khi review Pull Request.
+
+---
+
